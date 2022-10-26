@@ -1,44 +1,59 @@
 # Getting started
 
-This is a quick walkthrough of the things you’ll need to do to get up and running. If you're after more specific help, just get in touch.
+::: tip You need an organisation
+If you don't yet have an RG Scores organisation set up, please get in touch via our [Contact page](https://rgscores.com/contact/) to ask for a free trial.
+:::
 
-## Sign in
+## Sign In
 
-Browse to https://app.rscores.com and log in by clicking the icon at the top right of the page. Choose either the Google or Facebook options (the other options are for internal use only)
+1. Browse to https://app.rscores.com (you can click the RGScores App link at the top of these docs)
+2. Ensure you are using the correct organisation. Use the `Switch To..` menu option to change if needed.<br>![Switching organisations](./images/getting-started/organisation-switcher.png)
+3. Sign in by clicking the Sign In icon on the right side of the site header.<br>![Sign In](./images/getting-started/sign-in.png)
+4. Complete the sign-in process using either the Google or Facebook options
 
-## Create Levels and Clubs
+## Create clubs and competition Levels
 
-Go to the administation menu and create the appropriate levels and clubs, via the “Setup” card on the page
+1. Click on `administration` in the left hand menu.
+2. You will see a `Setup` card on the page, with links to Clubs, Levels, and System Settings.
+3. Create a club by clicking on the `Clubs` link, and then on the (+) button at the top right.
+4. Enter the name of the club, and click `Save`.
+5. Repeat the process to create the other clubs you need. If you allow visiting clubs from other organisations you can mark them with the "Out of Area" flag.
 
-If you allow visiting clubs from other organisations you can mark them with the "Out of Area" flag.
+Once you have added your clubs, you will need to add your competition levels or divisions.
 
-You may also want to consider using an “N/A” level for gymnasts who only compete in groups/multiples, but not in individual competitions.
+See the [Competition Levels](./administration/levels.md) page for further details.
 
 ## Create a volunteer account (optional)
 
-We strongly suggest creating a separate user account specifically for volunteers to use when helping with data entry and floor marhalling. Create the account as either a new Google account, or create a new email address of your choice and use it to login via Facebook. and add them as a volunteer.
+We strongly suggest having a separate user account specifically for volunteers to use when helping with data entry or floor marshalling.
 
 To add a volunteer create a new person in the system, choosing the “Other” flag in the options and enter the new email address you created. Finally give them the “volunteer” permissions.
 
-![add a person](./images/getting-started/add-people.png)
+See the [People](./administration/people.md) page for more information on how to add people to the system.
 
 ## Add gymnasts
 
-Add all the gymnasts who will be competing at your competition.
+Add all the gymnasts who will be competing in your competitions.
 
-At this point we don't support in import process (it's on our to-do list) so you'll have to manually enter everyone at this point.
+See the [People](./administration/people.md) page for more information on how to add gymnasts to the system.
 
-While it might be a little painful, it's a one-time exercise. Once gymnasts are in the sytem you won't need to re-enter them every competition.
+::: info
+Adding many people be a little repetitive, but thankfully it's a one-time exercise. Once a gymnast is in the system you won't need to re-enter their details anywhere else.
+:::
 
 ## Create a competition
 
-In the competitions card (in the administration menu), click the add (+) button and create a new competition. Easy!
+1. Click on `administration` in the left hand menu.
+2. In the `competitions` card, click the add (+) button to create a new competition.
+3. Supply the basic information about the competition, and click `Save`.
 
-Next, click the competition to go to the competition details page. Here you can adjust the details and add more information by clicking the Edit button on the Settings card.
+The competition will then be shown in the upcoming list of competitions.
+
+Select the competition to go to the competition management page, where you can manage entries, add sessions, and alter the competition settings.
 
 ![competition settings](./images/getting-started/edit-competition-info.png)
 
-You'll see reminders telling you to add the levels and divisions that will be competing in your event. Add them 😉
+You'll see reminders telling you to add the levels and divisions that will be competing in your event.
 
 ## Add the clubs and gymnasts that are competing
 
