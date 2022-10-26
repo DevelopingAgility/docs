@@ -26,7 +26,7 @@ Oh, for those wondering, the ticks you see indicate if an entry has been accepte
 
 To add a late entry, go to the session details via the administration area. You should see the new Late Entry button in each level's summary view.
 
-![Late Entry](/images/entries/late-entry.png)
+![Late Entry](./images/entries/late-entry.png)
 
 Click the button, fill in the details, click on Add, and a new entry will be added to the competition and new routines added to your session.
 

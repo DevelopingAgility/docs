@@ -8,9 +8,9 @@ It also meant that judging for a single level would be performed by multiple pan
 
 With this release you can now arrange your session so that two different levels perform in parallel and have each level judged by a single, consistent panel for the entire session. This is primarily intended for levels split into subdivisions by age, such as, say, Level 3 Senior and Level 3 Junior.
 
-![work order generation options](/images/work-orders/work-order-generation-in-parallel.jpg)
+![work order generation options](./images/work-orders/work-order-generation-in-parallel.jpg)
 
-![parallel levels in work order](/images/work-orders/parallel-levels-in-work-order.jpg)
+![parallel levels in work order](./images/work-orders/parallel-levels-in-work-order.jpg)
 
 This means the system won't know if a session makes sense or not when running two or more panels at once. In the example shown you can see I've mixed Level 3 and Level 4 into a single session, running in parallel. Would that make sense on the day? That's something you'd need to decide as the competition organiser.
 
