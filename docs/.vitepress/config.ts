@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'RGScores Docs',
   description: 'Documentation for RGScores',
-  base: '/docs/',
   lang: 'en-AU',
   themeConfig: {
     logo: '/logo.png',
