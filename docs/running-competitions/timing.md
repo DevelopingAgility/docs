@@ -1,35 +1,37 @@
-Have a look at the work order image and you'll see two new additions to the work order PDF.
+# Tracking session timing
 
-The first is the "At" column, showing when a routine is expected to be on the floor.
+When a work order is generated, an estimated time for when each routine will be perform is calculated. This is shown in the "ETR" column (*Estimated Time of Routine*) in the work order PDFs.
 
-The second is the suggested time when a refresher/restroom break for the judges should occur.
+You will also see when suggested times for a judges refresher/restroom break should occur.
 
-As a competition coordinator you can use this information to keep track of your session's overall progress and know how early or late a session is running. Now when you need to go and tell the judges to hurry it up a little, you can tell them exactly how late they are! You'll be their favourite person!
+As the competition coordinator you can use this information to keep track of your session's overall progress and know how early or late a session is running.
 
-### Here's how it works
+## Timing visibility for judges
 
-1. We find the competition start time for the session. If there's no start time, we'll try the general warmup time instead.
-1. We add the duration of each routine (based on the level definition) and time for gymnasts to transition to/from the floor when each routine should start.
-    * Scratched routines will be skipped and do not count toward the session timing.
-1. The standard transition time is 60 seconds per routine. It is 45 seconds when judging panels are operating in tandem.
-1. For long sessions (over 2 hours), we'll include a judges rest break. If you go over 4 hours, there's a second break.
-1. We provide a suggested time for that break based on a few simple rules
-    * If a rotation starts less than 15 minutes before the break, move it to the start of the rotation
-    * If a rotation ends less than 25 minutes after the break, delay it until the next rotation
-    * Otherwise take the break mid-rotation
+When judges are using electronic score entry, a timing indicator will be shown on the score entry screen.
 
-If you do something different, let us know. Feedback is always welcome!
+If a session is running more than a few minutes late, a timing warning be shown indicating how many minutes behind the session is. This will be visible to all judges as a way of encouraging them to work a little more efficiently.
 
-#### This is only for the Work Order PDFs
+Similarly, as soon as one judge has entered their scores for a routine, all other judges will see a a 20 second countdown timer on their submit button. If the countdown time expires, the button will change colour to orange to indicate they are running late.
 
-Making routine times too visible might create extra pressure on competition organisers and judging panels to be on time. 
+### How Estimated Times are determined
 
-We also know that it's common for the initial routines in a session to take a little longer while the judges fall into their rhythm, and that time can be caught up once they hit their groove.
+Under the hood, here's what happens.
 
-And finally we know that judges breaks can shift to different times based on unexpected events, or simple things like judges drinking a little too much water before the session starts! 😀
+1. We start with the competition start time for the session. If no start time exists, we fall back to the general warmup time instead. If no times exist, we can't produce an estimated time.
+2. We then determine the duration of a routine from the level definition, and add time for gymnasts to transition to/from the floor to determine when each routine should start.
+    * Any scratched routines will be ignored.
+3. The transition times are set at 60 seconds per routine when there are single panels in operation, and 45 seconds when judging panels are alternating (i.e. 2 panels, 1 floor)
+4. Every 2 hours, we add a judges rest break.
+5. We determine a suggested time for that break based on a few simple rules
+    * If a rotation starts less than 15 minutes before the break, we bring the break forward to the before start of the rotation
+    * If a rotation ends less than 25 minutes after the break, we delay the break until the end of the rotation
+    * Otherwise we take the break mid-rotation
 
-As such, RG Scores will only show an "Estimated Time of Routine" (ETR) on Work Order PDFs. This timing information will not be visible anywhere else in the system.
+#### Considerations
 
-Finally, since we work out the break time on the fly, we don't currently let you adjust when a suggested break occurs. We may adjust this in the future, but we'd like you to try this approach first and give us feedback.
+It's common for the initial routines in a session to take a little longer as the judges find their rhythm and align their judging, and more so early in a competition season. While that time can often be caught up as the session progress, it can also be a pattern of behaviour.
 
-Thanks! And good luck with your next competition, whenever that may be!
+We would encourage head judges to work with their panels to not fall more than 5 minutes behind.
+
+We would also encourage competition coordinators to include some buffer time (10-15 minutes) in their session plans to allow for unexpected events such as injuries and excessive delays that can occur with split judging panels.

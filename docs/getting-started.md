@@ -1,41 +1,49 @@
 # Getting started
 
 ::: tip You need an organisation
-If you don't yet have an RG Scores organisation set up, please get in touch via our [Contact page](https://rgscores.com/contact/) to ask for a free trial.
+If you don't yet have an RG Scores organisation, please get in touch via our [Contact page](https://rgscores.com/contact/) to ask for a free trial.
 :::
+
+## Select your organisation
+
+1. Browse to https://app.rscores.com
+2. Ensure you have selected your organisation
+   1. The first time you access RGScores you will be prompted to select an organisation to use
+   2. You can use the `Switch To..` menu option at any time to select a different organisation.<br>![Switching organisations](./images/getting-started/organisation-switcher.png)
+   3. The currently selected organisation is shown above the navigation menu
 
 ## Sign In
 
-1. Browse to https://app.rscores.com (you can click the RGScores App link at the top of these docs)
-2. Ensure you are using the correct organisation. Use the `Switch To..` menu option to change if needed.<br>![Switching organisations](./images/getting-started/organisation-switcher.png)
-3. Sign in by clicking the Sign In icon on the right side of the site header.<br>![Sign In](./images/getting-started/sign-in.png)
-4. Complete the sign-in process using either the Google or Facebook options
+1. Sign in by clicking on Sign In along the right-hand side of the site header.<br>![Sign In](./images/getting-started/sign-in.png)
+2. Complete the sign-in process using either your Google or Facebook account.
+3. Once signed, extra navigation menu entries will appear
 
-## Create clubs and competition Levels
+## Create a club and a competition Level
 
-1. Click on `administration` in the left hand menu.
-2. You will see a `Setup` card on the page, with links to Clubs, Levels, and System Settings.
+1. Click on `Administration` in the navigation menu.
+2. You will see a `Setup` card on the page containing links to Clubs, Levels, and System Settings.
 3. Create a club by clicking on the `Clubs` link, and then on the (+) button at the top right.
 4. Enter the name of the club, and click `Save`.
-5. Repeat the process to create the other clubs you need. If you allow visiting clubs from other organisations you can mark them with the "Out of Area" flag.
 
-Once you have added your clubs, you will need to add your competition levels or divisions.
+Now that a club is created, we need to add a competition level. Levels are used to group Gymnasts together for competition.
 
-See the [Competition Levels](./administration/levels.md) page for further details.
+1. From the Administration page, click on the `Levels` link in the Setting card.
+2. Enter the name of the Level.
+3. Go to the Apparatus tab and select Ball, Hoop, Clubs, and Ribbon.
+4. Cick `Save`
 
-## Create a volunteer account (optional)
+See the [Competition Levels](./administration/levels.md) page for more information about the different level options.
 
-We strongly suggest having a separate user account specifically for volunteers to use when helping with data entry or floor marshalling.
+## Add a gymnast
 
-To add a volunteer create a new person in the system, choosing the “Other” flag in the options and enter the new email address you created. Finally give them the “volunteer” permissions.
+1. From the Administration page, click on the (+) button within the `People` card.
+2. Enter the gymnast's First and Last names
+3. Select the club the gymnast belongs to.
+4. (optional) Enter the birth date of the gymnast. Having dates of birth helps avoid mistakes when entering gymnasts into levels with age restrictions.
+5. From the person catgeory, ensure you select the 'Gymnast' radio button.
+6. Click `Save and Close` when done.
 
-See the [People](./administration/people.md) page for more information on how to add people to the system.
-
-## Add gymnasts
-
-Add all the gymnasts who will be competing in your competitions.
-
-See the [People](./administration/people.md) page for more information on how to add gymnasts to the system.
+See the [People](./administration/people.md) page for more information on adding gymnasts and other people to the system.
 
 ::: info
 Adding many people be a little repetitive, but thankfully it's a one-time exercise. Once a gymnast is in the system you won't need to re-enter their details anywhere else.
@@ -43,58 +51,55 @@ Adding many people be a little repetitive, but thankfully it's a one-time exerci
 
 ## Create a competition
 
-1. Click on `administration` in the left hand menu.
-2. In the `competitions` card, click the add (+) button to create a new competition.
-3. Supply the basic information about the competition, and click `Save`.
+1. Click on `Administration` in the left hand menu.
+2. In the `Competitions` card, click the add (+) button to create a new competition.
+3. Enter a name for the competition and a start date, then click `Save`.
 
 The competition will then be shown in the upcoming list of competitions.
 
-Select the competition to go to the competition management page, where you can manage entries, add sessions, and alter the competition settings.
+Select the competition you just created to go to the competition management page.
 
-![competition settings](./images/getting-started/edit-competition-info.png)
+This is where you will manage entries, add sessions, and update the competition details.
 
-You'll see reminders telling you to add the levels and divisions that will be competing in your event.
+### Add a Level
+Let's start by adding the levels that will be competing at this competition.
 
-## Add the clubs and gymnasts that are competing
+1. Click on the `Edit` button in the `Settings` card.
+2. In the Competition Levels area, select all of the levels that will be competing. If you've been following the Getting Started guide, this will be the level you created earlier.
+3. Click `Save`
 
-First, add each of the clubs who have entered
+### Add an Entry
 
-Next, add the gymnasts entered for each club. The drop down box will let you select all gymnasts to make it quicker.
+Next up, we need to add an entry.
 
-Optionally, add any groups or multiples that are competing.
+1. In the `Entries` card, click the `Edit Entries` button.
+2. Select a club from the drop down list.
+3. Expand the Level you wish to add an entry to, and cick the (+) button to add a new entry.
+4. Select the gymnast you created earlier in the guide, leaving the music tracks empty for now and click `Add & Close`
+5. Click the `<-` button at the top of the Entries card to go back to the entry overview.
 
-And finally, if you are giving out any teams awares, you can enter team entries as well.
+Competitions are broken up into sessions, and each competition needs at least one session.
 
-## Configure your sessions
+### Create a Session
 
-Add sessions as needed (the level entry summary gives some timing approximations to help you. And don't forget you can change the details of any session as needed.
+1. In the `Sessions` card, click the (+) button to add a new session.
+2. Enter a session name, and the date for the session. The session date must be one of the days the competition is run on.
+3. Click `Save`
+4. Now select the session you just added from the session list.
+5. In the `Settings` card, select which levels will be competing in the session. There should just be one if you are following the guide.
+6. Click `Save`
 
-![session settings](./images/getting-started/edit-session-settings.png)
+### Generate a Work Order
 
-Don't forget to select the levels competing in each session.
+Now that your session is defined, and you have entries in your competition we can create the Work Order for the session.
 
-## Create a work order
+1. In the `Settings` card, click the `Generate Work Order` button.
+2. Leave the settings as the default values and click `Generate`
 
-The fun step! Once you’re ready, click the “Generate Work Order” button, selecting the rules you want to use and click the button. It should generate in a fraction of a second, saving you hours of work.
+The system will generate all of the routines for the competition and you will now have a competition ready to be run.
 
-Examine the generated work order by clicking the “View Work Order” button (there’s 3 different views you can use to get a feel for how the session will run)
+Once your competition is ready, you should then `Publish` it to make it visible on the home page, and `Activate` it so that scores can be entered. Activating a competition will use a competition credit.
 
-If you’re not happy with it, or you have changes, you can simply generate it again. No problem at all.
+## You're now ready to run the competition
 
-## Publish it
-
-When you've finalised entries and work orders, you can publish the competition. This will lock it for changes and make it visible to others.
-
-At this point you may also want to produce paper work orders. You can do so via the two Work Order PDF buttons in each session. You'll see a PDF something like this, with your logo, instead of someone elses 😊
-
-![sample work order](./images/getting-started/sample-work-order.png)
-
-## You're ready to run
-
-Score entry should be self explanatory and you can explore the features without a problem.
-
-I think that should be enough to get you started 😊
-
-Oh, if you want a private competition to learn with, let us know and we'll help you out.
-
-P.S. If a gymnast withdraws after the competition is published, you can scratch them using the floor marshal menu. Scratching an gymnast prevents scores being accidentally entered for them, and they'll be displayed with a line through their names on both the session views and any work order PDFs you re-print.
+See the [Running Competitions](./running-competitions/) for guidance on score entry, using the scoreboard, using the Floor Marshall option, and viewing results.

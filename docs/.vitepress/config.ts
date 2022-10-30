@@ -7,6 +7,8 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.png',
     siteTitle: 'RGScores',
+    outline: 2,
+    outlineTitle: 'On this page',
     nav: [
       { text: 'Home', link: 'https://rgscores.com' },
       { text: 'RGScores App', link: 'https://app.rgscores.com' },
@@ -35,6 +37,7 @@ export default defineConfig({
       {
         text: 'Running Competitions',
         items: [
+          { text: 'Getting Started', link: '/running-competitions/' },
           {text: 'Timing', link: '/running-competitions/timing'},
         ]
       }
