@@ -1,22 +1,33 @@
 # Entries
 
-The first step when editing entries is to select the club you're working with.
+The entry list for the competition is where you define all the gymnasts or groups that will be competing.
 
-Clubs with existing entries are listed first, along with their entry count. All other clubs & organisations are shown after that.
+Entries are a list of gymnasts/groups by club, per level.
+
+If a level does not have [pre-set music](../administration/levels#apparatus), each entry may optionally have a music track associated with each exerise/apparatus to be performed.
+
+## Managing entries
+The first step when editing entries is to select the club the entry belongs to. Typically, clubs supply entry lists, so selecting the club first should make it somewhat simpler to record the entries.
+
+In the Clubs listing, any clubs with existing entries are listed first, along with their entry count. All other clubs & organisations are shown after that in alphabetical order.
 
 ![club selection](./images/entries/entry-club-selection.png)
 
-Once you've chosen a club, you'll see all the levels for the competition listed with a summary of the entries per level.
+Once you've selected a club, you'll see all the available levels for the competition listed, along with a summary of the entries per level.
 
-Selecting a level expands out to a view showing either individual or group entries. If the competition also allows team entries, those will be shown alongside in the individual levels.
+Selecting a level expands the view to show the entry list for that club and level. If a competition also allows team entries, a tab to manage team entries will be shown alongside the individual entries.
 
 ![entry level details](./images/entries/entry-level-details.png)
 
-If you remove a gymnast from the entry list, any team's they are in are also removed.
+If you remove a gymnast from the entry list, any team's they are a part of will also be removed.
 
-Any changes made will be automatically saved as soon as you make them. You do not need to click any save buttons, which means there are no concerns about losing your changes while entering a large number of gymnasts.
+::: tip AutoSave Enabled
+Any changes made will be automatically saved as soon as you make them. You do not need to click a  `save` button. You do not need to worry about losing changes due to a temporary loss of connectivity whilst recording a large number of entries.
+:::
 
 The ticks you see indicate if an entry has been accepted or not. This is in preparation for a potential future update where support may be added for club owners to self-manage their entries so that competition organisers just have to accept or decline entries before each competition starts.
+
+Once done, you can either select another club to add entries for, or you can click the back button at the top of the entry card.
 
 ## How to add a late entry
 
@@ -24,7 +35,7 @@ To add a late entry, go to the session details via the administration area. You 
 
 ![Late Entry](./images/entries/late-entry.png)
 
-Click the button, fill in the details, click on Add, and a new entry will be added to the competition and new routines added to your session.
+Click the button, fill in the details, click on Add, and a new entry will be added to the competition and new routines will be added to your session.
 
 ### Where do the routines get placed?
 

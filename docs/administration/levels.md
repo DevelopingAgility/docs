@@ -10,7 +10,7 @@ By default, the level listing will only show competition levels for the current 
 
 The level listing will display all levels, ordered by name. Levels for individuals will additionally display the apparatus selected for the level.
 
-## Level Settings - Overview
+## Basic Details
 
 #### Name & Competition Year
 
@@ -30,7 +30,7 @@ If left blank, the default duration of 90 seconds is assumed.
 
 Text entered here will appear on result PDFs. This is most commonly used to describe criteria within selection events.
 
-## Level Settings - Scoring
+## Scoring Settings
 
 #### Scoring Method
 
@@ -63,7 +63,7 @@ For selection events where a minimum qualifying score must be achieved, any scor
 
 Achieving a qualifying score does not automatically mean selection for a competition squad as each organisation has it's own selection rules.
 
-## Level Settings - Options
+## Options
 
 #### Use Compulsory Music
 
@@ -85,7 +85,7 @@ Indicates if Team Entries are allowed. If enabled, extra options will be shown r
 * **Count Scores Per Apparatus**: If true, team scores are determined by the best *n* scores per apparatus. If disabled, team scores are determined by the best *n* scores across all apparatus.
 * **Scores to count**: How many scores across the team members should be used to determine the Team Total score.
 
-## Level Settings - Apparatus
+## Apparatus
 
 Only available for levels for Individuals
 
@@ -93,7 +93,7 @@ Indicators for each apparatus. If enabled, indicate the apparatus will be perfor
 
 For levels where there is compulsory music, enabling an apparatus will also show options for setting the music track to be used.
 
-## Level Settings - Routines
+## Routines
 
 Only available for levels for Groups/Multiples
 

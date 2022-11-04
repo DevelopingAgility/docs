@@ -25,12 +25,16 @@ export default defineConfig({
         text: 'Administration',
         items: [
           { text: 'Levels', link: '/administration/levels' },
+          { text: 'People', link: '/administration/people' },
+          { text: 'System Settings', link: '/administration/systemSettings' },
         ]
       },
       {
         text: 'Managing Competitions',
         items: [
+          {text: 'Competitions', link: '/competition-management/definition'},
           {text: 'Entries', link: '/competition-management/entries'},
+          {text: 'Sessions', link: '/competition-management/sessions'},
           {text: 'Work Orders', link: '/competition-management/generating-work-orders'},
         ]
       },
