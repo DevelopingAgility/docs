@@ -34,6 +34,7 @@ export default defineConfig({
         items: [
           {text: 'Competitions', link: '/competition-management/definition'},
           {text: 'Entries', link: '/competition-management/entries'},
+          {text: 'Music', link: '/competition-management/music'},
           {text: 'Sessions', link: '/competition-management/sessions'},
           {text: 'Work Orders', link: '/competition-management/generating-work-orders'},
         ]
